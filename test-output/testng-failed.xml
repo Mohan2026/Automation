@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestDetails(failed)">
+    <parameter name="url" value="https://blazedemo.com/"/>
+    <classes>
+      <class name="org.newproj.NewClass">
+        <methods>
+          <include name="initiate"/>
+        </methods>
+      </class> <!-- org.newproj.NewClass -->
+    </classes>
+  </test> <!-- TestDetails(failed) -->
+</suite> <!-- Failed suite [Suite] -->

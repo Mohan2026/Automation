@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="TestDetails">
+  
+ <parameter name="myName" value="Steve Jobs"></parameter>
+ <parameter name="address" value="Adyar"></parameter>
+ <parameter name="city" value="Chennai"></parameter>
+ <parameter name="state" value="Tamil Nadu"></parameter>
+ <parameter name="zipCode" value="600056"></parameter>
+ <parameter name="creditCardNumber" value="58372682048469853"></parameter>
+ <parameter name="creditCardMonth" value="06"></parameter>
+ <parameter name="creditCardYear" value="2020"></parameter>
+ <parameter name="nameOnCard" value="Steve Job Murugesan"></parameter>
+  
+  
+    <classes>
+      <class name="org.newproj.NewClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+	

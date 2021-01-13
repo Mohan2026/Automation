@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27470" started-at="2021-01-12T04:30:06Z" finished-at="2021-01-12T04:30:33Z">
+    <groups>
+    </groups>
+    <test name="TestDetails" duration-ms="27470" started-at="2021-01-12T04:30:06Z" finished-at="2021-01-12T04:30:33Z">
+      <class name="org.newproj.NewClass">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:org.newproj.NewClass@78c730]" name="initiate" duration-ms="23186" started-at="2021-01-12T04:30:06Z" finished-at="2021-01-12T04:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="txtDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.newproj.NewClass@78c730]" name="txtDetails" duration-ms="4229" started-at="2021-01-12T04:30:29Z" finished-at="2021-01-12T04:30:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steve Jobs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adyar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Tamil Nadu]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[600056]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[58372682048469853]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[06]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2020]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Steve Job Murugesan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- txtDetails -->
+      </class> <!-- org.newproj.NewClass -->
+    </test> <!-- TestDetails -->
+  </suite> <!-- Suite -->
+</testng-results>
